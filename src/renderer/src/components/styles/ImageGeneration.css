@@ -1,0 +1,60 @@
+.image-promte-box {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  
+}
+
+.message {
+  width: 100%;
+  height: 40px;
+}
+
+
+
+
+.input-place textarea {
+    outline: none;
+    font-size: 17px;
+    text-wrap: nowrap;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    color: var(--color-ascent1);
+    resize: none;
+    width: calc(100% - 80px);
+  
+  }
+  
+
+.send-input::placeholder {
+  color: #828e9e;
+}
+
+.input-place {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+  margin-left: 10px;
+  align-items: center;
+  background-color: #40414f;
+  border-radius: 7px;
+
+  width: 280px;
+  gap: 5px;
+  border: 1px solid #2e2f3a;
+}
+
+.send {
+  width: 3  0px;
+  height: 30px;
+  background-color: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.send-icon {
+  width: 17px;
+}
