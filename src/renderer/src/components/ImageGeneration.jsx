@@ -6,6 +6,7 @@ function ImageGeneration() {
   return (
     <>
       <div className="main-container">
+        .show imag
         <div className="image-promte-box">
           <div className="input-place">
             <TextareaAutosize
