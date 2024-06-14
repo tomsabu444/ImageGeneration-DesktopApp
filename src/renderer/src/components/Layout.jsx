@@ -1,11 +1,11 @@
 import React from 'react'
 import ImageGeneration from './ImageGeneration'
 
-function Layout({children}) {
+function Layout({ children }) {
   return (
     <main>
-    {children}
-    <ImageGeneration/>
+      <div style={{ position: 'fixed' }}>{children}</div>
+      <ImageGeneration />
     </main>
   )
 }

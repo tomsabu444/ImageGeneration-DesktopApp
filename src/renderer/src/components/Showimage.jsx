@@ -4,7 +4,7 @@ import Layout from './Layout'
 function Showimage() {
   return (
     <Layout>
-      <div>Showimage</div>
+      <div className='show-images'>Showimage</div>
     </Layout>
   )
 }
